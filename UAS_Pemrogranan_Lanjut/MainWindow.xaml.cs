@@ -49,7 +49,6 @@ namespace UAS
             labelTotal.Content = "Rp " + total;
         }
 
-
         public void addItemSucceed()
         {
             listKeranjangBelanja.Items.Refresh();
@@ -69,9 +68,7 @@ namespace UAS
         {
             listPromo.Items.Refresh();
         }
-      
-       
-
+     
         private void onDaftarMenuClicked(object sender, RoutedEventArgs e)
         {
             Menu menu = new Menu();
