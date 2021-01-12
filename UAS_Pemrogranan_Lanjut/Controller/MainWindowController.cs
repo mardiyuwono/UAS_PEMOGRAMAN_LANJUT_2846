@@ -10,7 +10,6 @@ namespace UAS.Controller
     {
         KeranjangBelanja keranjangBelanja;
 
-
         public MainWindowController(KeranjangBelanja keranjangBelanja, Pembayaran pembayaran)
         {
             this.keranjangBelanja = keranjangBelanja;
@@ -41,7 +40,6 @@ namespace UAS.Controller
         {
             return this.keranjangBelanja.getDiskon();
         }
-
 
     }
 }
