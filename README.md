@@ -1,3 +1,5 @@
+Mardi Yuwono - 19.11.2846
+
 # # Kedai Coffe 
 (Introduction)
 Aplikasi ini merupakan sebuah program Kedai Coffe untuk memenuhi tugas UAS Pemrograman Lanjut 2020/2021.
@@ -11,5 +13,3 @@ Aplikasi ini merupakan sebuah program Kedai Coffe untuk memenuhi tugas UAS Pemro
 -   Terdapat`Promo.xaml`untuk menampilkan program 3 (pilihan promo)
 -   Terdapat folder Controller yang berisi class  `MainWindowController.cs`  `MenuController.cs`  dan  `PromoController.cs`
 -   Terdapat class `MainWindow.xaml.cs`, `Menu.xaml.cs`, dan `Promo.xaml.cs`  untuk function
-
-Mardi Yuwono - 19.11.2846
