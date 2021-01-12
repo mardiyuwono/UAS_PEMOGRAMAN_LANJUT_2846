@@ -36,13 +36,12 @@ namespace UAS
         {
             this.listener = listener;
         }
+        
         private void listMenuOnDoubleClicked(object sender, MouseButtonEventArgs e)
         {
             ListBox listbox = sender as ListBox;
             Item item = listbox.SelectedItem as Item;
             this.listener.OnMenuSelected(item);
-
-            
         }
 
         private void generateContentMenu()
@@ -66,10 +65,8 @@ namespace UAS
             listMenu.Items.Refresh();
 
         }
-
-
-        
     }
+    
     public interface OnMenuChangedListener
     {
         void OnMenuSelected(Item item);
